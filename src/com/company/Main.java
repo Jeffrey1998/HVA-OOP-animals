@@ -29,7 +29,7 @@ public class Main {
         System.out.println("All classes in the list");
 
         for (Animal animal: animals ){
-            System.out.println(animal.getClass());
+            animal.makeSound();
 
             // instanceOf declaration
             if (animal instanceof isSellable) {
